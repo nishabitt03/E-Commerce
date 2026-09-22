@@ -1,0 +1,17 @@
+export type {
+  AnalyticsEvent,
+  AnalyticsPayloadMap,
+  PageViewPayload,
+  ProductViewPayload,
+  SearchPayload,
+  AddToCartPayload,
+  RemoveFromCartPayload,
+  WishlistPayload,
+  BeginCheckoutPayload,
+  PaymentInitiatedPayload,
+  PaymentSuccessPayload,
+  PaymentFailedPayload,
+  PurchasePayload,
+  SkinConcernPayload,
+  RecommendationClickPayload,
+} from "@/types/analytics";
